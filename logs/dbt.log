@@ -1,0 +1,31 @@
+[0m13:07:03.712669 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029494CF5550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029491DBC7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002949555A5D0>]}
+
+
+============================== 13:07:03.720645 | 3f1279df-a869-4478-80a2-c278657b65ba ==============================
+[0m13:07:03.720645 [info ] [MainThread]: Running with dbt=1.9.0
+[0m13:07:03.721983 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\User\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:07:03.759376 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/User/.dbt')}
+[0m13:07:03.760283 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m13:07:59.059207 [debug] [MainThread]: Starter project path: C:\Users\User\Documents\Projet-Data\TEST-TECHNIQUE-NOV\env2\Lib\site-packages\dbt\include\starter_project
+[0m13:07:59.081882 [info ] [MainThread]: 
+Your new dbt project "ADZUNA_API" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:07:59.083015 [info ] [MainThread]: Setting up your profile.
+[0m13:25:50.798837 [info ] [MainThread]: Profile ADZUNA_API written to C:\Users\User\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:25:50.802129 [debug] [MainThread]: Command `dbt init` succeeded at 13:25:50.801766 after 1127.23 seconds
+[0m13:25:50.803037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000294971D1F30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029495AAF0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029497146BE0>]}
+[0m13:25:50.803966 [debug] [MainThread]: Flushing usage events
+[0m13:25:51.257067 [debug] [MainThread]: An error was encountered while trying to flush usage events
